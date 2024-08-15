@@ -1,0 +1,84 @@
+* {
+    margin: 15;
+    padding: 15;
+    box-sizing: border-box;
+    font-family: "arial", arial;
+
+}
+body{
+    
+    background-color: #3d6f91;
+    background-image: linear-gradient(135deg, #cae4f5 0%, #7d82e9 50%, #ffffff 100%);
+        
+    
+      
+     
+}
+
+.cart-1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 60%;
+ 
+}
+
+.cart-1 .card1{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.cart-1 .card1:nth-child(1) .card-img{
+    background-image: url(https://images.pexels.com/photos/3476312/pexels-photo-3476312.jpeg?cs=srgb&dl=pexels-venelin-dimitrov-1873912-3476312.jpg&fm=jpg);
+}
+.cart-1  .card-img{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 52%;
+    transition:  0.3s ease;
+}
+.cart-1 .card1:nth-child(2) .card-img{
+    background-image: url(https://images.pexels.com/photos/2835436/pexels-photo-2835436.jpeg?cs=srgb&dl=pexels-francesco-ungaro-2835436.jpg&fm=jpg);
+}
+
+.cart-1  .card-img:hover{
+    transform: scale(1.1);
+}
+.cart-1 .card1:nth-child(3) .card-img{
+    background-image: url(https://www.hdwallpapers.in/download/wooden_bridge_and_lake_under_blue_sky_with_clouds_during_sunset_4k_hd_nature-HD.jpg);
+}
+
+.cart-1 .card1 .icart-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 60%;
+    padding: 14px;
+}
+.cart-1 .card1 .icart-1 p{
+    font-size: 17px;
+    
+}
+.cart-1 .card1 .icart-1 h3,
+.cart-1 .card1 .icart-1 p:nth-child(2)
+{
+    margin: 10px 0;
+
+}
+
+.cart-1 .card1:nth-child(4) .card-img{
+    background-image: url(https://gallery.yopriceville.com/var/resizes/Nature/Autumn_Forest_Wallpaper.jpg?m=1629834046);
+}
+.cart-1 .card1:nth-child(5) .card-img{
+    background-image: url(https://images.pexels.com/photos/904382/pexels-photo-904382.jpeg?cs=srgb&dl=pexels-stefan-straka-27723-904382.jpg&fm=jpg);
+}
+.cart-1 .card1:nth-child(6) .card-img{
+    background-image: url(https://img.freepik.com/premium-photo/coniferous-forest-cold-winter-day-winter-landscape_260899-1090.jpg);
+}
